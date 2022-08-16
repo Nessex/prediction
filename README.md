@@ -3,6 +3,8 @@
 *Not ready for use*
 *The code is bad, the library interface is bad, it's all going to change*
 
+Note: This requires nightly Rust, as it exposes an async trait interface. This will be nightly until at least GATs are stabilized.
+
 This is a simple rust library for doing structured prediction with ML models.
 
 It's intended to allow you to quickly include structured, AI-driven prediction into an application, to codify integrations with models like Bloom, GPT-J etc.
